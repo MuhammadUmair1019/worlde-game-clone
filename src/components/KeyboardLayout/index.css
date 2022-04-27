@@ -1,0 +1,37 @@
+.keyboard-container {
+  width: 580px;
+  margin: 2rem auto;
+}
+
+.keyboard-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.keyboard-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 40px;
+  margin: 3px;
+  background: gray;
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.keyboard-button:last-child {
+  width: 80px;
+}
+
+.keyboard-button:nth-child(20) {
+  width: 80px;
+}
+
+.keyboard-button:hover {
+  background-color: darkgray;
+}
