@@ -1,0 +1,47 @@
+.modal-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #3d4054;
+  opacity: 0.8;
+  top: 0;
+  cursor: pointer;
+}
+
+.modal-card {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 500px;
+  height: 200px;
+  margin: 10rem auto;
+  background: #13141c;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  z-index: 999;
+}
+
+.modal-close {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  background: transparent;
+  border: 1px solid white;
+  opacity: 0.7;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.modal-contet {
+  position: absolute;
+  top: 0;
+  display: none;
+  background-color: #000;
+}

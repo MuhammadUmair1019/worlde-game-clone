@@ -1,0 +1,28 @@
+.board-wrapper {
+  width: 600px;
+  margin: 1rem auto;
+}
+
+.board-content {
+  display : flex;
+  justify-content: center;
+}
+
+.letter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+  width: 60px;
+  height: 60px;
+  margin: 3px;
+  border: 2px solid #414458;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.letter-border {
+  transition: all 0.1s ease-in-out;
+  border: 2px solid #dee1e9;
+}
